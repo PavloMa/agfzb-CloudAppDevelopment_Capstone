@@ -74,16 +74,15 @@ class CarDealer:
 class DealerReview:
 
     def __init__(self, dealership, name, purchase, review):
-        # Required attributes
+        # attributes
         self.dealership = dealership
         self.name = name
         self.purchase = purchase
         self.review = review
-        # Optional attributes
         self.purchase_date = ""
-        self.purchase_make = ""
-        self.purchase_model = ""
-        self.purchase_year = ""
+        self.car_make = ""
+        self.car_model = ""
+        self.car_year = ""
         self.sentiment = ""
         self.id = ""
 
